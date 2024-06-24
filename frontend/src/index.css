@@ -10,6 +10,14 @@
     scroll-behavior: smooth;
 }
 
+.app {
+  /* width: 80%; */
+  width: 100%;
+  margin: auto;
+  max-width: 1440px;
+  /* background-color: darkgoldenrod; */
+}
+
 body {
     min-height: 100vh;
 }
