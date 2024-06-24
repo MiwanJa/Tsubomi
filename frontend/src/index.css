@@ -83,3 +83,31 @@ ul {
     width: 40px;
     /* background-color: rgb(21, 224, 82); */
 }
+
+.input__form {
+    padding: 15px 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: 1px solid #D2D2D7;
+    width: 320px;
+    margin: auto;
+}
+
+.form__btn {
+    padding: 15px 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 320px;
+    margin: auto;
+}
+
+.form__btn:hover {
+    background-color: #FF421D;
+}
