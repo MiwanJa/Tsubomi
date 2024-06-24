@@ -40,20 +40,20 @@ const Signup = () => {
 
   return (
     <div className={signup_container}>
-      <div className="signup_form_container">
-        <div className="left">
+      <div className={signup_form_container}>
+        <div className={left}>
             <h2 className="h2">Добро пожаловать</h2>
             <Link to="/login">
                 <button
                     type='button'
-                    className='form__btn'
+                    className={form__btn}
                 >
                     Войти
                 </button>
             </Link>
         </div>
-        <div className="right">
-            <form className='form__container' onSubmit={handleSubmit}>
+        <div className={right}>
+            <form className={form__container} onSubmit={handleSubmit}>
                 <h2 className='h2'>Создать аккаунт</h2>
                 <input 
                     type="text"
@@ -62,7 +62,7 @@ const Signup = () => {
                     onChange={handleChange}
                     value={data.firstName}
                     required
-                    className='input__form'
+                    className={input__form}
                 />
                 <input 
                     type="text"
@@ -71,7 +71,7 @@ const Signup = () => {
                     onChange={handleChange}
                     value={data.lastName}
                     required
-                    className='input__form'
+                    className={input__form}
                 />
                 <input 
                     type="email"
@@ -80,7 +80,7 @@ const Signup = () => {
                     onChange={email}
                     value={data.email}
                     required
-                    className='input__form'
+                    className={input__form}
                 />
                 <input 
                     type="password"
@@ -89,12 +89,12 @@ const Signup = () => {
                     onChange={password}
                     value={data.password}
                     required
-                    className='input__form'
+                    className={input__form}
                 />
                 {error && <div className={error_msg} > {error} </div>}
                 <button
                     type='submit'
-                    className='form__btn'
+                    className={form__btn}
                 >
                     Зарегистрироваться
                 </button>
